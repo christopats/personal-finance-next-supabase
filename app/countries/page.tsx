@@ -1,5 +1,5 @@
 import React from 'react';
-import { createClient } from '../../utils/supabase/server.ts';
+import { createClient } from "../../utils/supabase/server.ts";
 
 export default async function Countries() {
   const supabase = await createClient();
