@@ -1,5 +1,6 @@
-import NextLogo from "./next-logo";
-import SupabaseLogo from "./supabase-logo";
+import NextLogo from "./next-logo.tsx";
+import SupabaseLogo from "./supabase-logo.tsx";
+import React from 'react'
 
 export default function Header() {
   return (

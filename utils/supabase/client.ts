@@ -1,4 +1,5 @@
 import { createBrowserClient } from "@supabase/ssr";
+import process from "node:process";
 
 export const createClient = () =>
   createBrowserClient(

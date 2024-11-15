@@ -1,6 +1,7 @@
 import Link from "next/link";
-import { Badge } from "./ui/badge";
-import { Button } from "./ui/button";
+import React from 'react'
+import { Badge } from "./ui/badge.tsx";
+import { Button } from "./ui/button.tsx";
 
 export function EnvVarWarning() {
   return (
